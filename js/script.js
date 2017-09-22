@@ -1,5 +1,13 @@
+// jQuery user interface
 var pingPong = function(number) {
   return "ping";
+};
+var pingPong = function(number) {
+  if (number % 5 === 0) {
+    return "pong";
+  } else {
+    return "ping";
+  }
 };
 $(document).ready(function() {
   $("#click").click(function(event) {
