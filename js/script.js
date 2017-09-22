@@ -3,10 +3,13 @@ var pingPong = function(number) {
   return "ping";
 };
 var pingPong = function(number) {
-  if (number % 3 === 0) {
+  if ((number % 3 === 0) &&
+    (number % 5 !== 0)) {
     return "ping";
-  } else if (number % 5 === 0) {
+  } else if ((number % 5 === 0) && (number % 15 !== 0)) {
     return "pong";
+  } else {
+    return "pingpong";
   }
 };
 
