@@ -1,0 +1,42 @@
+h1 {
+  font-size: 100px;
+  color: red;
+}
+
+h2 {
+  color: black;
+  /*opacity: 1.0;*/
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+h3 {}
+
+.part1 {
+  min-height: 200px;
+  background-color: white;
+  background-size: 100%;
+  /*color: red;*/
+  text-align: center;
+  padding-top: 50px;
+  background-size: 100%;
+  width: 100%;
+}
+
+.part2 {
+  background-image: url(../images/i-create-minimalist-posters-of-famous-fairy-tales-using-ping-pong-rackets-and-balls-2__880.jpg);
+  background-repeat: repeat-x;
+  background-size: 50%;
+  min-width: 70%;
+  min-height: 550px;
+  /*: auto;*/
+  /*opacity: 1.0;*/
+  text-align: left;
+  justify;
+  color: white;
+  font-size: 10px;
+}
+
+.button {
+  background-color: coral;
+}
