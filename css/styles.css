@@ -13,18 +13,19 @@ h2 {
 h3 {}
 
 .part1 {
+  background-image: url(../images/i-create-minimalist-posters-of-famous-fairy-tales-using-ping-pong-rackets-and-balls-2__880.jpg);
   min-height: 200px;
   background-color: white;
-  background-size: 100%;
+  background-size: 15%;
   /*color: red;*/
   text-align: center;
   padding-top: 50px;
-  background-size: 100%;
-  width: 100%;
+  /*background-size: 100%;*/
+  min-width: 70%;
 }
 
 .part2 {
-  background-image: url(../images/i-create-minimalist-posters-of-famous-fairy-tales-using-ping-pong-rackets-and-balls-2__880.jpg);
+  /*background-image: url(../images/i-create-minimalist-posters-of-famous-fairy-tales-using-ping-pong-rackets-and-balls-2__880.jpg);*/
   background-repeat: repeat-x;
   background-size: 50%;
   min-width: 70%;

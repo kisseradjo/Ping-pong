@@ -1,4 +1,4 @@
-// jQuery user interface
+//Introducing the business logic
 var pingPong = function(number) {
   return "ping";
 };
@@ -12,7 +12,7 @@ var pingPong = function(number) {
     return "pingpong";
   }
 };
-
+// jQuery user interface logic
 $(document).ready(function() {
   $("#click").click(function(event) {
     event.preventDefault();
