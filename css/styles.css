@@ -1,6 +1,11 @@
+.logo {
+  padding-bottom: 50px;
+}
+
 h1 {
   font-size: 100px;
-  color: red;
+  color: white;
+  text-align: center;
 }
 
 h2 {
@@ -12,19 +17,28 @@ h2 {
 
 h3 {}
 
+.container-fluid {
+  margin: 0%;
+}
+
 .part1 {
-  background-image: url(../images/i-create-minimalist-posters-of-famous-fairy-tales-using-ping-pong-rackets-and-balls-2__880.jpg);
+  background-image: url(../images/newpaul-and-anthony-burill.jpg);
   min-height: 200px;
-  background-color: white;
   background-size: 15%;
   /*color: red;*/
   text-align: center;
-  padding-top: 50px;
-  /*background-size: 100%;*/
-  min-width: 70%;
+  padding-bottom: 0px;
+  background-size: 40%;
+  min-width: 100%;
 }
 
 .part2 {
+  background-color: #ffb3b3;
+  min-height: 50px;
+  margin: 0%;
+}
+
+.part3 {
   /*background-image: url(../images/i-create-minimalist-posters-of-famous-fairy-tales-using-ping-pong-rackets-and-balls-2__880.jpg);*/
   background-repeat: repeat-x;
   background-size: 50%;
@@ -35,9 +49,28 @@ h3 {}
   text-align: left;
   justify;
   /*color: white;*/
-  font-size: 10px;
+  font-size: 25px;
+  background-color: #ffdb4d;
+  margin: 0%;
 }
 
+.part4 {
+  /*background-color: white;*/
+  min-height: 200px;
+  background-image: url(../"images/6.jpg");
+}
+
+.people {
+  /*width: 100%;*/
+}
+
+
+/*.people2 {
+  float: left;
+  background-color: #ffb3b3;*/
+
+
+}
 .button {
   background-color: coral;
 }
