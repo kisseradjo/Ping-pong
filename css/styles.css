@@ -25,7 +25,6 @@ h3 {}
   background-image: url(../images/newpaul-and-anthony-burill.jpg);
   min-height: 200px;
   background-size: 15%;
-  /*color: red;*/
   text-align: center;
   padding-bottom: 0px;
   background-size: 40%;
@@ -36,6 +35,24 @@ h3 {}
   background-color: #ffb3b3;
   min-height: 50px;
   margin: 0%;
+  animation-duration: 2s;
+  animation-name: example;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: #838487;
+  }
+  25% {
+    background-color: #F7786B;
+  }
+  50% {
+    background-color: #F7CAC9;
+  }
+  100% {
+    background-color: #EDCDC2;
+  }
 }
 
 .part3 {
@@ -54,23 +71,72 @@ h3 {}
   margin: 0%;
 }
 
+#result {
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+}
+
 .part4 {
-  /*background-color: white;*/
+  background: url(../"images/6.jpg");
+  background-size: 100%;
+  width: 100%;
   min-height: 200px;
-  background-image: url(../"images/6.jpg");
+  background-repeat: no-repeat;
+  padding-top: 95px;
+  padding-left: 165px;
+}
+
+.fa-chevron-left {
+  color: red;
+}
+
+.fa-chevron-right {
+  color: red;
+}
+
+.people .active {
+  background-color: white;
+  color: red;
+}
+
+.part4b p {
+  color: red;
+  font-weight: bold;
+}
+
+.part4b img {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.people .col-md-4:hover:not(.active) {
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
+
+.people .col-md-4:not(.active) {
+  background-color: #E3E3E3;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  width: 300px;
 }
 
 .people {
-  /*width: 100%;*/
+  width: 990px;
+  text-align: center;
 }
 
-
-/*.people2 {
-  float: left;
-  background-color: #ffb3b3;*/
-
-
+.cols {
+  width: 1145px;
 }
-.button {
-  background-color: coral;
+
+.people .inactive {
+  color: black;
+}
+
+.part4b {
+  background-color: white;
+  padding-left: 5px;
 }
