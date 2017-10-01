@@ -51,6 +51,12 @@ h2 {
   margin-top: -50px;
 }
 
+ul {
+  list-style-type: none;
+  margin-left: 40px;
+  padding: 0;
+}
+
 #result {
   color: white;
   font-size: 40px;
