@@ -60,6 +60,16 @@ ul {
   font-style: italic;
 }
 
+.btn {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+
 .info {
   float: right;
   background-color: black;
