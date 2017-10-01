@@ -1,12 +1,7 @@
 //Introducing the business logic
-// var pingPong = function(number) {
-//   return "ping";
-// };
 var displayNumbers = [];
 var pingPong = function(number, displayNumbers) {
-  for (i = 1; i <= number; i++)
-
-  {
+  for (i = 1; i <= number; i++) {
     if ((number % 3 === 0) && (number % 5 !== 0)) {
       displayNumbers.push("ping");
     } else if ((number % 5 === 0) && (number % 15 !== 0)) {
